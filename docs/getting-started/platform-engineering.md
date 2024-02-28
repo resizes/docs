@@ -44,3 +44,4 @@ Platform Engineering is a dynamic field that continues to grow in importance as 
 - https://thenewstack.io/platform-engineering/sre-vs-devops-vs-platform-engineering/
 - https://www.xenonstack.com/insights/platform-engineering-vs-devops-vs-sre
 - https://humanitec.com/blog/sre-vs-devops-vs-platform-engineering
+- [What is platform engineering? A quick introduction](https://circleci.com/blog/what-is-platform-engineering/)
