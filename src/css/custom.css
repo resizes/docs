@@ -1,0 +1,61 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+@font-face {
+  font-family: "Switzer";
+  src: url("/static/fonts/Switzer-Variable.woff2") format("woff2"),
+    url("/static/fonts/Switzer-Variable.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --ifm-color-primary: #212121;
+  --ifm-color-primary-dark: #323232;
+  --ifm-color-primary-darker: #434343;
+  --ifm-color-primary-darkest: #555555;
+  --ifm-color-primary-light: #666666;
+  --ifm-color-primary-lighter: #777777;
+  --ifm-color-primary-lightest: #888888;
+  --ifm-font-family-base: "Switzer";
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-footer-background-color: #121212;
+  --ifm-footer-title-color: #f9fafa;
+  --ifm-footer-link-color: #fbfcfc;
+  --ifm-footer-color: #f9fafa;
+  --ifm-footer-link-hover-color: #fe1aa7;
+  --ifm-pagination-nav-color-hover: #fe1aa7;
+}
+
+b.navbar__title {
+  display: none;
+}
+
+div.navbar__logo {
+  margin-bottom: 2px;
+}
+
+.hash-link {
+  color: #fe1aa7;
+}
+.hash-link:hover {
+  color: #f71a40;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. linear-gradient(0deg,#FE1AA7 0%,#F71A40 165%) */
+[data-theme="dark"] {
+  --ifm-color-primary: #f9fafa;
+  --ifm-color-primary-dark: #fafbfb;
+  --ifm-color-primary-darker: #fbfcfc;
+  --ifm-color-primary-darkest: #fcfdfd;
+  --ifm-color-primary-light: #fdfdfd;
+  --ifm-color-primary-lighter: #fefefe;
+  --ifm-color-primary-lightest: #ffffff;
+  --ifm-footer-background-color: #121212;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
