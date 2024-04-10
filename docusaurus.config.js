@@ -45,6 +45,7 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/resizes/docs/tree/main/',
+          routeBasePath: '/',
         },
         blog: {
           showReadingTime: true,
