@@ -15,7 +15,7 @@ permissions:
 jobs:
   deploy:
     name: Deploy to GitHub Pages
-    runs-on: actions-runners
+    runs-on: ubuntu-latest
     environment:
       name: github-pages
     steps:
