@@ -1,0 +1,6 @@
+jobs:
+  test-runner:
+    runs-on: actions-runners
+    steps:
+      - name: Check runner
+        run: echo "Runner is working!"
